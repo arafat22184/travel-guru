@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "placeName": "Cox's Bazar",
+    "title": "Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...",
+    "description": "Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island.",
+    "image": "https://i.ibb.co.com/nqs1DGMM/sundorbon.png"
+  },
+  {
+    "id": 2,
+    "placeName": "Sajek",
+    "title": "Sajek Valley is a popular tourist spot in the hills of the Rangamati district, known for its natural beauty and serene environment.",
+    "description": "Sajek is located in the Chittagong Hill Tracts and is renowned for its scenic views of rolling hills and clouds. It's a perfect getaway for nature lovers and trekkers. The area is also home to indigenous communities, offering cultural richness along with the beauty.",
+    "image": "https://i.ibb.co.com/wZj3M5w4/Sajek.png"
+  },
+  {
+    "id": 3,
+    "placeName": "Sreemongol",
+    "title": "Sreemongol is known as the 'tea capital' of Bangladesh, famous for its lush green tea gardens and biodiversity.",
+    "description": "Located in the Sylhet division, Sreemongol offers a peaceful environment surrounded by tea estates, lemon orchards, and rainforests. Lawachara National Park is a major attraction with rare species of flora and fauna, and you can also explore the traditional lifestyle of tribal communities.",
+    "image": "https://i.ibb.co.com/Lz3wbbqx/Sreemongol.png"
+  },
+  {
+    "id": 4,
+    "placeName": "Sundorbon",
+    "title": "The Sundarbans is the largest mangrove forest in the world, home to the Royal Bengal Tiger and rich in wildlife and biodiversity.",
+    "description": "Stretching across the delta of the Ganges, Brahmaputra and Meghna rivers, the Sundarbans is a UNESCO World Heritage Site. It features an intricate network of tidal waterways, mudflats, and small islands. Visitors often explore the forest via boat tours, spotting deer, crocodiles, and various bird species.",
+    "image": "https://i.ibb.co.com/nqs1DGMM/sundorbon.png"
+  }
+]
