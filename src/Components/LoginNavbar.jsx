@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
-import logo from "../assets/images/logo.png";
 import { FaSearch } from "react-icons/fa";
 
 const Navbar = () => {
@@ -8,7 +7,7 @@ const Navbar = () => {
     <>
       <NavLink
         className={({ isActive }) =>
-          `hover:bg-gray-950 py-3 px-8 font-semibold rounded ${
+          `hover:bg-gray-200 py-3 px-8 font-semibold rounded ${
             isActive ? "border-b-4 rounded-none border-white" : ""
           }`
         }
@@ -18,7 +17,7 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         className={({ isActive }) =>
-          `hover:bg-gray-950 py-3 px-8 font-semibold rounded ${
+          `hover:bg-gray-200 py-3 px-8 font-semibold rounded ${
             isActive ? "border-b-4 rounded-none border-white" : ""
           }`
         }
@@ -28,7 +27,7 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         className={({ isActive }) =>
-          `hover:bg-gray-950 py-3 px-8 font-semibold rounded ${
+          `hover:bg-gray-200 py-3 px-8 font-semibold rounded ${
             isActive ? "border-b-4 rounded-none border-white" : ""
           }`
         }
@@ -38,7 +37,7 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         className={({ isActive }) =>
-          `hover:bg-gray-950 py-3 px-8 font-semibold rounded ${
+          `hover:bg-gray-200 py-3 px-8 font-semibold rounded ${
             isActive ? "border-b-4 rounded-none border-white" : ""
           }`
         }
@@ -89,7 +88,11 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to={"/"}>
-          <img className="w-[120px] h-[56px]" src={logo} alt="" />
+          <img
+            className="w-[120px] h-[56px]"
+            src={"https://i.ibb.co.com/d0FvqVLw/Group-1330.png"}
+            alt="Logo"
+          />
         </Link>
       </div>
       {/* Search btn */}
@@ -99,9 +102,9 @@ const Navbar = () => {
           type="search"
           name="search"
           placeholder="Search your Destination..."
-          className="border border-white bg-white/20 text-white placeholder:text-gray-300 rounded-xl w-full pl-10 py-2"
+          className="border border-black bg-white/20 text-black placeholder:text-gray-500 rounded-xl w-full pl-10 py-2"
         />
-        <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white pointer-events-none" />
+        <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-black pointer-events-none" />
       </div>
 
       {/* Last */}
